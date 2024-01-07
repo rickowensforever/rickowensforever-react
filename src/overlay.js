@@ -109,7 +109,7 @@ const Overlay = () => {
         </CSSTransition>
         <CSSTransition
           in={showSidebars}
-          timeout={0}
+          timeout={500}
           classNames="fade"
           unmountOnExit
         >
