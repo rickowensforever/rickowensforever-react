@@ -1,0 +1,14 @@
+/* datetimedisplay.css */
+
+.datetimedisplay {
+  /* Add your styling rules for the DateTimeDisplay component here */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.date, .time {
+  margin: 0;
+}

@@ -1,0 +1,36 @@
+/* ephemera.css */
+
+.ephemera {
+    position: relative;
+    height: 100vh;
+  }
+  
+
+.slider{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Adjust the width as needed */
+}
+
+.slick-slide {
+    text-align: center;
+}
+
+.slick-image {
+    max-width: 100%;
+    max-height: 50vh;
+    width: auto;
+    height: auto;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.image-text {
+    margin-top: 10px;
+    color: #333;
+}
+
+.slick-dots li {
+    margin: -6px 0px !important;
+  }
