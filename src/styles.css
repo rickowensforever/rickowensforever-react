@@ -1,4 +1,8 @@
 /* styles.css */
+html {
+  background-color: #fafafa;
+}
+
 body {
   background-color: #fafafa;
   font-family: Helvetica Neue;
@@ -51,7 +55,7 @@ a:after {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #333;
+  background-color: #111;
   transform: scaleX(0);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
