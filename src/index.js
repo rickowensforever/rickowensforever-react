@@ -1,13 +1,13 @@
-// index.js
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom';
 import App from './App';
 import DateTimeDisplay from './datetimedisplay';
 
-ReactDOM.render(
+const root = document.getElementById('root');
+const rootElement = createRoot(root);
+rootElement.render(
   <React.StrictMode>
     <App />
-    <DateTimeDisplay/>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <DateTimeDisplay />
+  </React.StrictMode>
 );
